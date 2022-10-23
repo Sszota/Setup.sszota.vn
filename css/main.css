@@ -53,9 +53,10 @@ table {
 }
 
 :root {
-  -primary--color: #fff;
-  -text--color: #000;
-  -secondery--color: gray;
+  -primary--color: #486A6F;
+  -text--color: #678C92;
+  -secondery--color: #C6DBFF;
+  -back--color: #F4F7FF;
 }
 
 html {
@@ -84,7 +85,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
   color: var(-text--color);
@@ -99,4 +100,60 @@ body {
   max-width: 121rem;
   padding-top: 2rem;
   margin: 0 auto;
+}
+
+h1 {
+  font-family: "Noto sans", sans-serif;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+  color: var(-primary--color);
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: var(-primary--color);
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  color: var(-primary--color);
+}
+
+.btn {
+  padding: 1.5rem 7.1rem;
+  background-color: var(-primary--color);
+  color: var(-back--color);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.home .wrapper .header-hero {
+  width: 100%;
+  height: 100vh;
+  background-color: var(-secondery--color);
+}
+.home .wrapper .header-hero .container .header {
+  margin-top: 4.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .wrapper .header-hero .container .header .header__logo a {
+  display: flex;
+}
+.home .wrapper .header-hero .container .header .header__logo a .logo {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(-primary--color);
+  border-radius: 50%;
+  margin-right: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
