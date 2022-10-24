@@ -1,9 +1,9 @@
-:root{
-    -primary--color: #486A6F;
-    -text--color: #678C92;
-    -secondery--color: #C6DBFF;
-    -back--color: #F4F7FF;
-}
+
+$primary--color: #486A6F;
+$text--color: #678C92;
+$secondery--color: #C6DBFF;
+$back--color: #F4F7FF;
+$about--color: #5BCCDE;
 html{
     font-size: 62.5%;
 }
@@ -16,6 +16,9 @@ html{
 a{
     text-decoration: none;
     color: transparent;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 3.2rem;
 }
 li{
     list-style: none;
@@ -28,7 +31,8 @@ body{
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
-    color: var(-text--color);
+    color: $text--color;
+    
 }
 // 1440px 1170px (padding : 20px)
 .wrapper{
@@ -45,24 +49,29 @@ h1{
     font-size: 6.4rem;
     font-weight: 700;
     line-height: 7.2rem;
-    color: var(-primary--color);
+    color: $primary--color;
 }
 h2{
     font-size: 3.6rem;
     font-weight: 700;
     line-height: 4.8rem;
-    color: var(-primary--color);
+    color: $primary--color;
+}
+h3{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 4.4rem;
 }
 p{
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 3.2rem;
-    color: var(-primary--color);
+    color: $primary--color;
 }
 .btn{
     padding: 1.5rem 7.1rem;
-    background-color: var(-primary--color);
-    color: var(-back--color);
+    background-color: $primary--color;
+    color: $back--color;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 2.2rem;
