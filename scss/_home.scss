@@ -290,3 +290,181 @@ section.hero{
         }
     }
 }
+.socials{
+    margin-bottom: 25.6rem;
+    .container{
+        .soc-text{
+            text-align: center;
+            color: $about--color;
+            margin-bottom: 2rem;
+        }
+        .soc-name{
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        .soc-images{
+            max-width: 105.5rem;
+            margin: 0 auto;
+            // float: left;
+            .soc-img{
+                // display: inline;
+                width: 32.8rem;
+                height: 27.8rem;
+                margin: 1rem;
+            }
+        }
+    }
+}
+.contact{
+    margin-bottom: 25.6rem;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .vertical-container{
+            .text-container{
+                color: $about--color;
+                margin-bottom: 2rem;
+            }
+            .name-container{
+                margin-bottom: 11rem;
+            }
+            .span-container{
+                display: flex;
+                margin-bottom: 3rem;
+                align-items: center;
+                i{
+                    width: 7rem;
+                    height: 7rem;
+                    background-color: #E1EBFA;
+                    color: $primary--color;
+                    font-size: 3rem;
+                    text-align: center;
+                    padding-top: 2rem;
+                    border-radius: 5px;
+                    margin-right: 3.778rem;
+                }
+                .text-span{
+                    max-width: 20.2rem;
+                    b{
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .input-container{
+            width: 47.597rem;
+            padding: 5.2rem 4.101rem 3.5rem 4.1rem;
+            // margin-bottom: 25.6rem;
+            .input-name-email{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 2.8rem;
+                .input-name{
+                   .inp-text{
+                    width: 18.658rem;
+                   }
+                }
+            }
+            .input-sub{
+                margin-bottom: 2.8rem;
+                input{
+                    width: 39.151rem;
+                }
+            }
+            .input-mess{
+                margin-bottom: 2.8rem;
+                input{
+                    width: 39.151rem;
+                    height: 13rem;
+                }
+            }
+            .btn-contact{
+                width: 39.151rem;
+            }
+        }
+    }
+}
+.footer{
+    background-color: $primary--color;
+    height: 43rem;
+    .container{
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        .foot-buildit{
+            max-width: 28.8rem;
+            margin-top: 8.5rem;
+            
+            h2{
+                margin-bottom: 1.4rem;
+                color: $back--color;
+
+            }
+            p{
+                color: $back--color;
+                line-height: 10rem;
+                a{
+                    text-decoration: underline;
+                    color: $back--color;
+
+                }
+            }
+        }
+        .foot-service{
+            margin-top: 9rem;
+
+            .item{
+                margin-bottom: 0.6rem;
+
+
+                a{
+                    color: $back--color;
+                }
+            }
+            .link{
+               
+                a{
+                    height: 4rem;
+                    width: 4rem;
+                    display: inline-block;
+                    border-radius: 4px;
+                    background-color: $text--color;
+                    color: $back--color;
+                    margin-right: 2rem;
+                    text-align: center;
+
+                    i{
+                        font-size: 2rem;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+        .foot-menu{
+            margin-top: 9rem;
+
+            li{
+                margin-bottom: 0.6rem;
+
+                a{
+                    color: $back--color;
+                }
+            }
+        }
+        .foot-info{
+            max-width: 25rem;
+            margin-top: 9rem;
+
+            p{
+                color: $back--color;
+                margin-bottom: 0.6rem;
+            }
+            .text-info{
+                margin-bottom: 6.5rem;
+            }
+        }
+    }
+}

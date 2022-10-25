@@ -138,6 +138,14 @@ p {
   border-radius: 5px;
 }
 
+input {
+  height: 4rem;
+  border: 1px solid #486A6F;
+  outline: none;
+  border-radius: 3px;
+  background-color: #C6DBFF;
+}
+
 .home {
   background-color: #C6DBFF;
 }
@@ -391,4 +399,161 @@ section.hero .container .hero-images .img-bottom .img5 {
 .projects .container .pro-images .img-right .pro-img4 {
   width: 21.5rem;
   height: 13.5rem;
+}
+
+.socials {
+  margin-bottom: 25.6rem;
+}
+.socials .container .soc-text {
+  text-align: center;
+  color: #5BCCDE;
+  margin-bottom: 2rem;
+}
+.socials .container .soc-name {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.socials .container .soc-images {
+  max-width: 105.5rem;
+  margin: 0 auto;
+}
+.socials .container .soc-images .soc-img {
+  width: 32.8rem;
+  height: 27.8rem;
+  margin: 1rem;
+}
+
+.contact {
+  margin-bottom: 25.6rem;
+}
+.contact .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .container .vertical-container .text-container {
+  color: #5BCCDE;
+  margin-bottom: 2rem;
+}
+.contact .container .vertical-container .name-container {
+  margin-bottom: 11rem;
+}
+.contact .container .vertical-container .span-container {
+  display: flex;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+.contact .container .vertical-container .span-container i {
+  width: 7rem;
+  height: 7rem;
+  background-color: #E1EBFA;
+  color: #486A6F;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2rem;
+  border-radius: 5px;
+  margin-right: 3.778rem;
+}
+.contact .container .vertical-container .span-container .text-span {
+  max-width: 20.2rem;
+}
+.contact .container .vertical-container .span-container .text-span b {
+  font-weight: 700;
+}
+.contact .container .input-container {
+  width: 47.597rem;
+  padding: 5.2rem 4.101rem 3.5rem 4.1rem;
+}
+.contact .container .input-container .input-name-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+}
+.contact .container .input-container .input-name-email .input-name .inp-text {
+  width: 18.658rem;
+}
+.contact .container .input-container .input-sub {
+  margin-bottom: 2.8rem;
+}
+.contact .container .input-container .input-sub input {
+  width: 39.151rem;
+}
+.contact .container .input-container .input-mess {
+  margin-bottom: 2.8rem;
+}
+.contact .container .input-container .input-mess input {
+  width: 39.151rem;
+  height: 13rem;
+}
+.contact .container .input-container .btn-contact {
+  width: 39.151rem;
+}
+
+.footer {
+  background-color: #486A6F;
+  height: 43rem;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .foot-buildit {
+  max-width: 28.8rem;
+  margin-top: 8.5rem;
+}
+.footer .container .foot-buildit h2 {
+  margin-bottom: 1.4rem;
+  color: #F4F7FF;
+}
+.footer .container .foot-buildit p {
+  color: #F4F7FF;
+  line-height: 10rem;
+}
+.footer .container .foot-buildit p a {
+  text-decoration: underline;
+  color: #F4F7FF;
+}
+.footer .container .foot-service {
+  margin-top: 9rem;
+}
+.footer .container .foot-service .item {
+  margin-bottom: 0.6rem;
+}
+.footer .container .foot-service .item a {
+  color: #F4F7FF;
+}
+.footer .container .foot-service .link a {
+  height: 4rem;
+  width: 4rem;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #678C92;
+  color: #F4F7FF;
+  margin-right: 2rem;
+  text-align: center;
+}
+.footer .container .foot-service .link a i {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.footer .container .foot-menu {
+  margin-top: 9rem;
+}
+.footer .container .foot-menu li {
+  margin-bottom: 0.6rem;
+}
+.footer .container .foot-menu li a {
+  color: #F4F7FF;
+}
+.footer .container .foot-info {
+  max-width: 25rem;
+  margin-top: 9rem;
+}
+.footer .container .foot-info p {
+  color: #F4F7FF;
+  margin-bottom: 0.6rem;
+}
+.footer .container .foot-info .text-info {
+  margin-bottom: 6.5rem;
 }/*# sourceMappingURL=main.css.map */

@@ -79,3 +79,11 @@ p{
     border: none;
     border-radius: 5px;
 }
+input{
+    
+    height: 4rem;
+    border: 1px solid $primary--color;
+    outline: none;
+    border-radius: 3px;
+    background-color: $secondery--color;
+}
